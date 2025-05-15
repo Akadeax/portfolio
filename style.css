@@ -1,0 +1,144 @@
+body {
+  font-family: sans-serif;
+  background: #1e1e1e;
+  color: #fff;
+  padding: 2rem;
+}
+
+#projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project-group {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-bottom: 2rem;
+}
+
+.project {
+  background: #2c2c2c;
+  padding: 0.75rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  font-size: 0.9rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.project:hover {
+  background: #313131;
+  transform: scale(1.03);
+}
+
+.project img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.project h3 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.project p {
+  margin: 0.3rem 0;
+  line-height: 1.4;
+}
+
+.project a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  border-bottom: 2px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Sidebar and responsive layout */
+@media (min-width: 768px) {
+  .layout {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .sidebar {
+    flex: 1;
+    max-width: 340px;
+    background: #2c2c2c;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  }
+
+  .content {
+    flex: 3;
+  }
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+.sidebar p {
+  line-height: 1.6;
+}
+
+.profile-pic {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+a {
+  color: #c94343; /* bright cyan for visibility */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ecb0b0; /* white on hover */
+}
+.project a {
+  color: #c94343;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  color: #ecb0b0;
+}
+.meta-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.language-badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
