@@ -16,18 +16,9 @@
     <aside class="sidebar">
         <h2>The Boy And The Brush</h2>
         <p><strong>Members:</strong> 6</p>
-        <p><strong>Language:</strong> Unreal BP</p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/Akadeax/unwrap-jam-2025" target="_blank">github</a></p>
-        <hr />
-        <p>
-            Yet another lovely group project made with 4 total strangers and my best friend
-        </p>
-        <a href="https://github.com/Akadeax" target="_blank">Patrick Nellessen</a>
-        <a>Margo Desmet</a>
-        <a>Eleonora ciccarelli</a>
-        <a>Laurens Respaillie</a>
-        <a>Jan Keller</a>
-        <hr />
+        <p><strong>Language:</strong> Unreal Blueprints</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/Akadeax/unwrap-jam-2025" target="_blank">GitHub</a></p>
+
     </aside>
 
     <main class="content">
@@ -39,22 +30,23 @@
     <br><br>
     When thinking about <i>"it spreads"</i>, we came up with the idea of spreading color into a grayed-out world.
     <br> This, combined with a <i>platformer-style</i> game, became the core concept.
-    <br><br>In this project, my role involved handling all the <b>movement</b> and <b>gameplay mechanics</b>, while the other programmer focused on the <b>shader</b> required for coloring the world.
+    <br><br>In this project, my role involved handling the shader required for coloring the world along with some gameplay mechanics, art integration, and general bridging between the art and dev team.
   </p>
   <div class="video-container">
-    <iframe 
-      src="https://www.youtube.com/embed/cZr-_MqHFdM" 
+    <iframe
+      src="https://www.youtube.com/embed/cZr-_MqHFdM"
       title="YouTube video"
-      frameborder="0" 
+      frameborder="0"
       allowfullscreen>
     </iframe>
   </div>
   <p class="description">
-    The biggest challenge in a game like this was figuring out how to clearly distinguish which areas were safe to land on and which weren’t. <br> The solution was to make something distinct in both <i>grayscale</i> and <i>saturated colors</i>, but in our case, we didn’t quite succeed.
+    The biggest challenge I overcame in the production of this was the painting in of the background as the player moves around. It was achieved using a render texture; a black-and-white shader is applied to the background image, but only where the render texture is black. The player paints the render texture white as they walk around.
+    <br>
+    This had to function with a moving camera though, meaning the render texture overlay had to be panned and zoomed, but eventually I got this working, combining some Unreal C++ classes along with some of Unreal's Shadergraph.
   </p>
-      
+
     </main>
   </div>
 </body>
 </html>
-
