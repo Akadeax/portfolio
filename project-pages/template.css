@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   body {
     font-family: Arial, sans-serif;
     background-color: #1e1e1e;
@@ -12,26 +12,26 @@
     line-height: 1.6;
     padding: 0 2rem; /* Optional: space around the body */
   }
-  
+
   /* Links */
   a {
     color: #c94343;
     text-decoration: none;
   }
-  
+
   a:hover {
     text-decoration: underline;
   }
 .image {
   max-width: 100%;
   height: auto;
-  max-height: 400px; /* or whatever you prefer */
+  max-height: 500px; /* or whatever you prefer */
   border-radius: 8px;
   display: block;
   margin: 1rem 0;
   object-fit: contain;
 }
-  
+
   /* Banner */
   .banner img {
     width: 100%;
@@ -41,7 +41,7 @@
     display: block;
     border-bottom: 2px solid #ddd;
   }
-  
+
   /* Layout */
   .page-layout {
     display: flex;
@@ -56,7 +56,7 @@
     border-top: 1px solid #888; /* Or any color that suits your theme */
     margin: 10px 0;
   }
-  
+
   /* Sidebar */
   .sidebar {
     width: 250px;
@@ -71,39 +71,39 @@
     align-items: flex-start; /* Ensure left alignment */
     gap: 10px;
   }
-  
+
   .sidebar h2 {
     margin-bottom: 10px;
   }
-  
+
   /* Main Content */
   .content {
     flex: 1;
   }
-  
+
   .back-button {
     display: inline-block;
     margin-bottom: 15px;
     font-size: 0.95rem;
   }
-  
+
   h1 {
     margin-bottom: 10px;
     font-size: 2rem;
   }
-  
+
   .gif {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin: 20px 0;
   }
-  
+
   .description {
     font-size: 1.1rem;
     margin-bottom: 30px;
   }
-  
+
   /* Video Embeds */
   .video-container {
     margin-bottom: 30px;
@@ -113,7 +113,7 @@
     overflow: hidden;
     border-radius: 8px;
   }
-  
+
   .video-container iframe {
     position: absolute;
     width: 100%;
@@ -122,13 +122,13 @@
     left: 0;
     border: none;
   }
-  
+
   /* Responsive */
   @media (max-width: 900px) {
     .page-layout {
       flex-direction: column;
     }
-  
+
     .sidebar {
       width: 100%;
       margin-bottom: 20px;
@@ -141,7 +141,7 @@
     height: 0;
     overflow: hidden;
   }
-  
+
   .presentation-container iframe {
     position: absolute;
     top: 0;
@@ -163,4 +163,3 @@
 .note strong {
   color: #ecb0b0;
 }
-  

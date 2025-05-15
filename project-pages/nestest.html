@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="\assets\images\favicon.png?">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NesPad</title>
+  <link rel="stylesheet" href="template.css" />
+</head>
+<body>
+  <header class="banner">
+    <img src="../assets/images/NespadBanner.png" alt="Project Banner">
+  </header>
+
+  <div class="page-layout">
+    <aside class="sidebar">
+        <h2>NESTest</h2>
+        <p><strong>Language:</strong> 6502 Assembly</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/Akadeax/nestest" target="_blank">GitHub</a></p>
+        <hr />
+    </aside>
+
+    <main class="content">
+      <a href="../index.html" class="back-button">← Back to Portfolio</a>
+
+      <h1>The NesPad</h1>
+      <p class="description">
+        NESTest is a unit testing framework for making games for the Nintendo Entertainment System (NES) in 6502 assembly.
+         It allows testing and verifying that the expected values in code stay expected.
+        <br><br>
+       When running tests, the framework will give your development environment output along these lines:
+        <br><br>
+        <img src="../assets/images/nestest_output.png" alt="NESTest example output" class="image" />
+        <br><br>
+        This project started due to a very acute lack of unit testing me and a colleague felt while developing NESPad, a fully-featured NES text editor.<br>
+        Especially in a language as complex as 6502 assembly where it is incredibly easy to break old code with newly written code, I felt that not being able to unit test functions was a huge detriment. It had cost us as least 20 combined hours of debugging up to that point in the project.
+        <img src="../assets/images/Nespad.png" alt="NESPad example" class="image" />
+        <br><br>This warranted spending some of the development time on a unit testing framework.
+        <br><br>
+        NESTest taught me a lot of things about designing easy-to-use processes and syntax, inter-operation between multiple programs using sockets, and making tools as plug-in-able as possible. For example:
+        <ul style="margin-top: -20px; margin-left: 20px">
+        <li>running and viewing test results is a one-click operation is Visual Studio Code due to a prepared tasks.json file</li>
+        <li>tests are automatically ran when making a git commit due to a git hook</li>
+        <li>the unit testing runs in an emulator, but I designed the framework to accept any emulator with the proper bindings</li>
+        </ul>
+        <br>All of this is to make the tool as flexible as possible while being as close to plug-and-play as it can be.
+      </p>
+        </div>
+
+</body>
+</html>

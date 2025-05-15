@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="\assets\images\favicon.png?">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PDAnimator</title>
+  <link rel="stylesheet" href="template.css" />
+</head>
+<body>
+  <header class="banner">
+    <img src="../assets/images/NespadBanner.png" alt="Project Banner">
+  </header>
+
+  <div class="page-layout">
+    <aside class="sidebar">
+        <h2>PDAnimator</h2>
+        <p><strong>Language:</strong> C#</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/Akadeax/PDAnimator" target="_blank">GitHub</a></p>
+        <hr />
+    </aside>
+
+    <main class="content">
+      <a href="../index.html" class="back-button">← Back to Portfolio</a>
+
+      <h1>Pixel-Directional Animator (PDAnimator)</h1>
+      <p class="description">
+        PDAnimator is a concoction of a custom Unity Animator that makes it simpler to use 2D-topdown-spritesheet animation (Think the original Legend of Zelda), along with some tooling for convenience.
+        <br>
+        This project contains 3 separate units from a personal project:
+        <ul style="margin-top: -20px; margin-left: 20px">
+        <li>A custom Animator that replaces Unity's default one (PDAnimator)</li>
+        <li>A tool that speeds up setup work for creating sprite sheets (Spritesheet Slicer)</li>
+        <li>A tool that automates creating animations from a sprite sheet (PDA Animation Wizard)</li>
+        </ul>
+        <br>
+      <h2>PDAnimator</h2>
+      PDAnimator replaces Unity's default animator with a version that is more friendly to sprite use. It handles 4-directional animation states in a state machine.
+      <br>
+      Instead of manually creating animations, slicing them individually, setting their pivots one by one, and dragging in every single frame in the Unity animation editor, create animation clips and insert the frames. Then make states that use these clips using the pre-built classes.
+      <br><br>
+      This system has proven so useful in this project that I have re-written it to Godot Engine for a future project due to similar frustrations; it taught me how to design editor tools, along with teaching me how to design easily understandable library code that is meant to be extended.
+      </p>
+
+      <br>
+      <h2>Tools</h2>
+      The Spritesheet slicer is an editor tool that automates setting slicing metadata on Unity sprite assets. This is something that becomes incredibly tedious, due to the auto-slicing in Unity being deeply flawed (at least in the Unity version this was developed for).
+      <br>
+      <br>
+      The Animation Wizard is used to very easily create animation files for PDAnimator in a drag-and-drop fashion. It automates creating Scriptable Objects and setting their properties in bulk, instead of manually setting them one-by-one.
+        </div>
+
+</body>
+</html>
