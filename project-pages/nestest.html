@@ -37,11 +37,11 @@
         <img src="../assets/images/Nespad.png" alt="NESPad example" class="image" />
         <br><br>This warranted spending some of the development time on a unit testing framework.
         <br><br>
-        NESTest taught me a lot of things about designing easy-to-use processes and syntax, inter-operation between multiple programs using sockets, and making tools as plug-in-able as possible. For example:
+        NESTest taught me a lot of things about designing easy-to-use processes and syntax, inter-operation between multiple programs using sockets, and making tools as extensible as possible. For example:
         <ul style="margin-top: -20px; margin-left: 20px">
-        <li>running and viewing test results is a one-click operation is Visual Studio Code due to a prepared tasks.json file</li>
-        <li>tests are automatically ran when making a git commit due to a git hook</li>
-        <li>the unit testing runs in an emulator, but I designed the framework to accept any emulator with the proper bindings</li>
+        <li>running and viewing test results is a one-click operation in the IDE due to a prepared tasks.json file</li>
+        <li>tests are automatically ran when making a git commit due to a git hook, preventing the commit if tests fail</li>
+        <li>the unit testing runs in an emulator, but I abstracted the logic away so it can work with any emulator</li>
         </ul>
         <br>All of this is to make the tool as flexible as possible while being as close to plug-and-play as it can be.
       </p>
