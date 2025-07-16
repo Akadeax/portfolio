@@ -6,7 +6,7 @@
     "github": "https://github.com/Akadeax/nestest",
     "description": "A unit testing framework for 6502 assembly",
     "order": "0",
-    "Date" : "Winter 2024",
+    "Date" : "Dec 2024",
     "type": "Tools & Libraries",
     "language":"6502 Assembly",
     "page": "project-pages/nestest.html",
@@ -19,10 +19,23 @@
     "github": "https://github.com/Akadeax/research-terrain-color-painter",
     "description": "An Unreal Engine editor tool for coloring terrain",
     "order": "1",
-    "Date" : "Spring 2025",
+    "Date" : "Mar 2025",
     "type": "Tools & Libraries",
     "language":"C++",
     "page": "project-pages/terraincolorpainter.html",
+    "typeDescription": "Tools or libraries I have developed and/or published myself."
+  },
+  {
+    "title": "CompDep",
+    "image": "assets/images/DependencyViewer.png",
+    "link": "",
+    "github": "https://github.com/Akadeax/comp-dep",
+    "description": "An Unreal Engine plugin for handling inter-component dependencies",
+    "order": "1",
+    "Date" : "Jul 2025",
+    "type": "Tools & Libraries",
+    "language":"C++",
+    "page": "project-pages/compdep.html",
     "typeDescription": "Tools or libraries I have developed and/or published myself."
   },
   {
@@ -32,7 +45,7 @@
     "github": "https://github.com/Akadeax/PDAnimator",
     "description": "An alternative to the Unity Animation System for 2D pixel art",
     "order": "2",
-    "Date" : "Winter 2023",
+    "Date" : "Nov 2023",
     "type": "Tools & Libraries",
     "language":"C#",
     "page": "project-pages/pdanimator.html"
@@ -44,7 +57,7 @@
     "github": "https://github.com/Akadeax/VecMathVisualizer",
     "description": "A vector & quaternion math visualizer in Vulkan",
     "order": "3",
-    "Date" : "Summer 2024",
+    "Date" : "Jun 2024",
     "type": "Tools & Libraries",
     "language":"C++",
     "page": "project-pages/vecmathvisualizer.html"
@@ -56,7 +69,7 @@
     "github": "https://github.com/Akadeax/chronicles-online-tools",
     "description": "An item manager for an RPG in WPF MVVM",
     "order": "4",
-    "Date" : "Spring 2025",
+    "Date" : "Feb 2025",
     "type": "Tools & Libraries",
     "language":"C#",
     "page": "project-pages/chronicles.html"
@@ -73,7 +86,7 @@
     "github": "",
     "description": "An Action-Survival game about mowing down zombies",
     "order": "0",
-    "Date" : "Spring 2025",
+    "Date" : "May 2025",
     "type": "Game Projects",
     "language":"C++",
     "page": "project-pages/boilerline.html",
@@ -86,7 +99,7 @@
     "github": "https://github.com/Akadeax/nespad",
     "description": "A notepad made for the NES in 6502 assembly",
     "order": "1",
-    "Date" : "December 2024",
+    "Date" : "Jan 2025",
     "type": "Game Projects",
     "language":"6502 Assembly",
     "page": "project-pages/nespad.html"
@@ -98,7 +111,7 @@
     "link": "https://akadeax.itch.io/poseidons-moving-company",
     "description": "A game about helping the aquatic population move houses",
     "order": "2",
-    "Date" : "February 2024",
+    "Date" : "Feb 2024",
     "type": "Game Projects",
     "language": "GDScript",
     "page": "project-pages/pomoco.html"
@@ -110,7 +123,7 @@
     "link": "https://inquisitiveoctopus.itch.io/the-boy-and-the-brush",
     "description": "A short 2D platformer where you play as a boy repainting color into the world",
     "order": "3",
-    "Date" : "April 2025",
+    "Date" : "Apr 2025",
     "type": "Game Projects",
     "language": "Unreal Blueprints",
     "page": "project-pages/tbatb.html"

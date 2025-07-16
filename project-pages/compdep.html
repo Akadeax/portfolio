@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="\assets\images\favicon.png?">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CompDep</title>
+  <link rel="stylesheet" href="template.css" />
+</head>
+<body>
+  <header class="banner">
+    <img src="../assets/images/DependencyViewer.png" alt="Project Banner">
+  </header>
+
+  <div class="page-layout">
+    <aside class="sidebar">
+        <h2>Terrain Color Painter</h2>
+        <p><strong>Language:</strong> C++</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/Akadeax/comp-dep" target="_blank">GitHub</a></p>
+        <hr />
+    </aside>
+
+    <main class="content">
+      <a href="../index.html" class="back-button">← Back to Portfolio</a>
+
+      <h1>Terrain Color Painter</h1>
+      <p class="description">
+        Working with Components in Unreal Engine is part of the standard workflow.
+        Unreal, however, lacks any real tools to manage inter-component dependencies. This plugin was a custom solution I wrote for a
+        project where inter-component dependencies were everywhere, and we were getting frustrated at the lack of enforced, editor-time dependencies.
+
+        The plugin provides a way for defining dependencies both in visual scripting and in raw C++, and then displaying them either on individual components:
+
+        <img src="../assets/images/DetailsDependencies.png" alt="Details" class="image" />
+
+        or in bulk for all blueprints:
+
+        <img src="../assets/images/DependencyViewer.png" alt="Details" class="image" />
+
+        This plugin proved incredibly handy in speeding up our team's specifically component-based workflow.
+        <br>
+        <br>
+        Creating this, I learned a lot about the Unreal editor; namely how the entire UI is built up, how Blueprint assets are structured, how the engine generates actual code from these assets, and how to access all of this properly.
+        On top of that, listening to what the other developers in my team actually wanted and implementing the tool
+        in a way that helped them increase their productivity was also very important.
+      </p>
+    </div>
+
+</body>
+</html>
