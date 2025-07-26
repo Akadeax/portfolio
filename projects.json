@@ -13,19 +13,6 @@
     "typeDescription": "Tools or libraries I have developed and/or published myself."
   },
   {
-    "title": "Terrain Color Painter",
-    "image": "assets/images/colored_terrain.png",
-    "link": "",
-    "github": "https://github.com/Akadeax/research-terrain-color-painter",
-    "description": "An Unreal Engine editor tool for coloring terrain",
-    "order": "1",
-    "Date" : "Mar 2025",
-    "type": "Tools & Libraries",
-    "language":"C++",
-    "page": "project-pages/terraincolorpainter.html",
-    "typeDescription": "Tools or libraries I have developed and/or published myself."
-  },
-  {
     "title": "CompDep",
     "image": "assets/images/DependencyViewer.png",
     "link": "",
@@ -38,6 +25,20 @@
     "page": "project-pages/compdep.html",
     "typeDescription": "Tools or libraries I have developed and/or published myself."
   },
+  {
+    "title": "Terrain Color Painter",
+    "image": "assets/images/colored_terrain.png",
+    "link": "",
+    "github": "https://github.com/Akadeax/research-terrain-color-painter",
+    "description": "An Unreal Engine editor tool for coloring terrain",
+    "order": "1",
+    "Date" : "Mar 2025",
+    "type": "Tools & Libraries",
+    "language":"C++",
+    "page": "project-pages/terraincolorpainter.html",
+    "typeDescription": "Tools or libraries I have developed and/or published myself."
+  },
+
   {
     "title": "PDAnimator",
     "image": "assets/images/pdanimator.png",
